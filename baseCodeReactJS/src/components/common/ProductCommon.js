@@ -15,11 +15,11 @@ const ProductCommon = ({ linkImg, title, price, titleButton, oldPrice }) => {
             <Link to="/product">Thêm vào giỏ hàng</Link>
           </button>
           <span className="product__sale">-30%</span>
-          <button className="product__wishlist"> 
+          <a href="#" className="product__wishlist"> 
             <span className="action__wishlist">Yêu thích</span>
-            <div className="action__icon"></div>
+            <div className="action__icon" ></div>
             
-          </button>
+          </a>
           
 
         </div>

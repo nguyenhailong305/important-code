@@ -56,7 +56,7 @@ const nav__icons = [
 
 export default function Header() {
   return (
-    <header>
+
       <Navbar className="navbar__header" light expand={true}>
         <NavbarBrand href="/">
           <img src={logo} alt="logo" width={60} height={60} />
@@ -88,6 +88,6 @@ export default function Header() {
           </Nav>
         </Collapse>
       </Navbar>
-    </header>
+   
   );
 }

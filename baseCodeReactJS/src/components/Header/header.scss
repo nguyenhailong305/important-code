@@ -3,8 +3,13 @@
     padding: 12px 30px;
     text-transform: uppercase;
     background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
     img {
         margin-right: 5px;
+        display: block;
+        width: 100%;
     }
         .nav__links__items {
             padding: 15px;
